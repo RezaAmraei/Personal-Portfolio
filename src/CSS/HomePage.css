@@ -1,5 +1,22 @@
-#homePageBody {
-  background-color: rgb(32, 32, 138);
-  height: 100vh;
+#home-page-container {
+  height: 100dvh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+#header {
+  border: 1px solid red;
+}
+
+#footer {
+  border: 1px solid blue;
+}
+
+#body {
+  border: 1px solid green;
+  /* flex-grow: 1; */
 }
