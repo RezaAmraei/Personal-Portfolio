@@ -1,1 +1,9 @@
 export { default as SpinningName } from "./SpinningName";
+export { default as Header } from "./Header";
+export { default as Body } from "./Body";
+export { default as Footer } from "./Footer";
+export { default as MyName } from "./MyName";
+export { default as AboutMe } from "./AboutMe";
+export { default as DisplayProject } from "./DisplayProject";
+export { default as ProjectDetails } from "./ProjectDetails";
+export { default as ProjectVisuals } from "./ProjectVisuals";

@@ -1,0 +1,45 @@
+.project-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  flex: 1.2;
+  gap: 30px;
+}
+.product-visuals-container {
+  border: 1px solid red;
+  flex: 2;
+}
+.detail-tags {
+  font-weight: 600;
+  font-size: 40px;
+}
+.details-labels {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.details-tech-list {
+  margin-left: 40px;
+  width: 100%;
+  font-size: 25px;
+}
+.details-tech-list li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+.details-tech-list img {
+  height: 60px;
+  width: 70px;
+}
+.details-tech-list span {
+  width: 180px;
+  font-weight: 500;
+  font-size: 27px;
+}

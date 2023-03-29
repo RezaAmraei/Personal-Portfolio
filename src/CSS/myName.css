@@ -1,0 +1,19 @@
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fading-text-container {
+  width: 100%;
+  transition: transform 1.7s cubic-bezier(0.7, 0.04, 0.66, 1.71);
+  transform: translateX(25%);
+  margin-top: 500px;
+}
+.fade-in-text {
+  font-size: 120px;
+}
+
+.intro-text-container h2 {
+  border-bottom: 1px solid grey;
+  margin-bottom: 450px;
+}

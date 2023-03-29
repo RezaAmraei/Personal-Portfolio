@@ -1,13 +1,21 @@
 #home-page-container {
-  height: 100dvh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#home-page-container::-webkit-scrollbar {
+  display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
+#home-page-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 #header {
   border: 1px solid red;
 }
@@ -18,5 +26,7 @@
 
 #body {
   border: 1px solid green;
-  /* flex-grow: 1; */
+  flex-grow: 1;
+  color: white;
+  width: 100%;
 }

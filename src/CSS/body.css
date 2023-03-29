@@ -1,0 +1,13 @@
+#project-header {
+  font-size: 150px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 100px;
+  width: min-content;
+}
+
+#project-header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
