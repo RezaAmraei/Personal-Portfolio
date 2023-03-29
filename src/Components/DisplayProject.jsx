@@ -1,10 +1,10 @@
 import React from "react";
 import { ProjectDetails, ProjectVisuals } from "../Components";
 import "../CSS/displayProject.css";
-const DisplayProject = () => {
+const DisplayProject = ({ projectDetails }) => {
   return (
     <div className="project-container">
-      <ProjectDetails />
+      <ProjectDetails projectDetails={projectDetails} />
       <ProjectVisuals />
     </div>
   );
