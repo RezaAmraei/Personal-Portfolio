@@ -1,4 +1,4 @@
-#project-header {
+.header {
   font-size: 150px;
   color: white;
   border-bottom: 1px solid white;
@@ -6,7 +6,7 @@
   width: min-content;
 }
 
-#project-header-wrapper {
+.header-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;

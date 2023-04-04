@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { MyName, AboutMe, DisplayProject } from "../Components";
 import Aos from "aos";
-
 import "aos/dist/aos.css";
 import "../CSS/body.css";
 
@@ -9,8 +8,6 @@ const Body = () => {
   useEffect(() => {
     Aos.init();
   }, []);
-
-  const technologies = ["React", "Node", "CockRoachDB", "Socket.io", "AWS"];
 
   const twitter = {
     name: "Twitter Clone",
@@ -20,17 +17,40 @@ const Body = () => {
       github: "https://github.com/Twitter-Clone-2/Twitter",
       prod: "https://main.d3ieofe88k6zwp.amplifyapp.com/",
     },
+    images: ["twitter-mobile", "twitter-desktop-1", "twitter-desktop-2"],
+  };
+  const ecommerce = {
+    name: "Ecommerce",
+    technologies: ["Next.js", "Stripe", "Sanity", "Vercel"],
+    desc: "In this project I built a e-commerce that is fully functional, it has a database with Sanity so the host of the website has an easy way to upload more products and checking out is linked with Stripe so the user knows that they have a easy and safe way to purchase the products.",
+    links: {
+      github: "https://github.com/RezaAmraei/Ecommerce",
+      prod: "https://ecommerce-eight-sable.vercel.app/",
+    },
+    images: ["ecommerce-mobile", "ecommerce-desktop-1", "ecommerce-desktop-2"],
   };
   return (
     <div id="body">
       <MyName />
       <AboutMe />
-      <div id="project-header-wrapper">
-        <h1 id="project-header" data-aos="slide-right" data-aos-delay="0">
+      <div className="header-wrapper">
+        <h1 className="header" data-aos="slide-right" data-aos-delay="0">
           Projects
         </h1>
       </div>
-      <DisplayProject projectDetails={twitter} />
+      <div id="projects">
+        <DisplayProject
+          projectDetails={twitter}
+          projectScreenShots={twitter.images}
+        />
+        <DisplayProject
+          projectDetails={ecommerce}
+          projectScreenShots={ecommerce.images}
+        />
+      </div>
+      <div className="header-wrapper">
+        <h1 className="header">Resume</h1>
+      </div>
     </div>
   );
 };

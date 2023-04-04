@@ -9,6 +9,7 @@
   border: 1px solid blue;
   flex: 1.2;
   gap: 30px;
+  justify-content: space-between;
 }
 .product-visuals-container {
   border: 1px solid red;
@@ -36,10 +37,10 @@
 }
 .details-tech-list img {
   height: 60px;
-  width: 70px;
+  /* width: 80px; */
 }
 .details-tech-list span {
-  width: 180px;
+  width: 400px;
   font-weight: 500;
   font-size: 27px;
 }
@@ -61,4 +62,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.project-visuals-top-sc {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.project-visuals-bot-sc {
+  display: flex;
+  justify-content: center;
+}
+.project-visuals-iphone {
+  height: 700px !important;
+}
+.desktop-pic-1 {
+}
+.test1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
