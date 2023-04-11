@@ -7,3 +7,5 @@ export { default as AboutMe } from "./AboutMe";
 export { default as DisplayProject } from "./DisplayProject";
 export { default as ProjectDetails } from "./ProjectDetails";
 export { default as ProjectVisuals } from "./ProjectVisuals";
+export { default as PDFRender } from "./PDFRender";
+export { default as ContactMe } from "./ContactMe";

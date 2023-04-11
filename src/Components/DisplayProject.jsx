@@ -3,7 +3,7 @@ import { ProjectDetails, ProjectVisuals } from "../Components";
 import "../CSS/displayProject.css";
 const DisplayProject = ({ projectDetails, projectScreenShots }) => {
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
       <ProjectDetails projectDetails={projectDetails} />
 
       <ProjectVisuals projectScreenShots={projectScreenShots} />

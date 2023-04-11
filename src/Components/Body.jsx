@@ -1,5 +1,11 @@
 import React, { useEffect } from "react";
-import { MyName, AboutMe, DisplayProject } from "../Components";
+import {
+  MyName,
+  AboutMe,
+  DisplayProject,
+  PDFRender,
+  ContactMe,
+} from "../Components";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "../CSS/body.css";
@@ -51,6 +57,8 @@ const Body = () => {
       <div className="header-wrapper">
         <h1 className="header">Resume</h1>
       </div>
+      <PDFRender />
+      <ContactMe />
     </div>
   );
 };
