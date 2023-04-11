@@ -1,3 +1,6 @@
+* {
+  scroll-margin-top: 50px;
+}
 .header {
   font-size: 150px;
   color: white;

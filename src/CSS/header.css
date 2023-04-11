@@ -1,0 +1,43 @@
+#header {
+  display: flex;
+  width: 100%;
+  border: 3px solid blue;
+}
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline !important;
+}

@@ -1,10 +1,22 @@
 import React from "react";
-import "../CSS/HomePage.css";
+import "../CSS/header.css";
 
 const Header = () => {
   return (
     <div id="header">
-      <h1>header</h1>
+      <nav className="navbar">
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#project">Projects</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };
