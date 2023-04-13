@@ -17,15 +17,12 @@
   scrollbar-width: none; /* Firefox */
 }
 #header {
-  border: 1px solid red;
 }
 
 #footer {
-  border: 1px solid blue;
 }
 
 #body {
-  border: 1px solid green;
   flex-grow: 1;
   color: white;
   width: 100%;

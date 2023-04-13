@@ -6,7 +6,7 @@
   color: white;
   border-bottom: 1px solid white;
   margin-bottom: 100px;
-  width: min-content;
+  /* width: min-content; */
 }
 
 .header-wrapper {

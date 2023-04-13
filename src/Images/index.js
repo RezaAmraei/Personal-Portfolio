@@ -14,4 +14,6 @@ export { default as TwitterDesktop2 } from "./twitter-desktop-sc-2.png";
 export { default as EcommerceMobile } from "./ecommerce-mobile-sc.png";
 export { default as EcommerceDesktop } from "./ecommerce-desktop-sc.png";
 export { default as EcommerceDesktop2 } from "./ecommerce-desktop-sc-2.png";
+export { default as GitHub } from "./GitHub.png";
+export { default as Linkedin } from "./linkedin.png";
 export { default as Resume } from "./Resume_SoftwareDeveloper.pdf";

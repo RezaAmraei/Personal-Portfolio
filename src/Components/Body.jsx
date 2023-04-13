@@ -15,21 +15,13 @@ const Body = ({ aboutRef }) => {
   useEffect(() => {
     Aos.init();
   }, []);
-  const ref = useRef();
-  const isVisible = useIsVisible(ref);
 
   return (
     <div id="body">
       <MyName />
       <AboutMe />
       <div className="header-wrapper">
-        <h1
-          className="header"
-          data-aos="slide-right"
-          data-aos-delay="0"
-          id="project"
-          ref={aboutRef}
-        >
+        <h1 className="header" data-aos="slide-right" id="project">
           Projects
         </h1>
       </div>
@@ -44,12 +36,16 @@ const Body = ({ aboutRef }) => {
         />
       </div>
       <div className="header-wrapper">
-        <h1 className="header" id="resume" ref={ref}>
-          {/* <p>{isVisible ? "Visible" : "Not visible"}</p> */}
+        <h1 className="header" id="resume" data-aos="slide-right">
           Resume
         </h1>
       </div>
       <PDFRender />
+      <div className="header-wrapper">
+        <h1 className="header" id="contact" data-aos="slide-right">
+          Contact Me
+        </h1>
+      </div>
       <ContactMe />
     </div>
   );

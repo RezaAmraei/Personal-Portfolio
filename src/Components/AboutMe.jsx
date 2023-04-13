@@ -11,7 +11,8 @@ const AboutMe = () => {
       <div className="about-me-desc">
         <h3 data-aos="fade-right" data-aos-delay="100">
           Developer that loves learning new technologies and building new
-          projects.
+          projects. And when Im not focused on coding you'll find me playing
+          video games and at the gym!
         </h3>
       </div>
     </div>

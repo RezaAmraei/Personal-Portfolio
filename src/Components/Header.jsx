@@ -15,6 +15,9 @@ const Header = () => {
           <li>
             <a href="#resume">Resume</a>
           </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>

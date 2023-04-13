@@ -9,3 +9,5 @@ export { default as ProjectDetails } from "./ProjectDetails";
 export { default as ProjectVisuals } from "./ProjectVisuals";
 export { default as PDFRender } from "./PDFRender";
 export { default as ContactMe } from "./ContactMe";
+export { default as ContactForm } from "./ContactForm";
+export { default as ParticlesJS } from "./ParticlesJS";

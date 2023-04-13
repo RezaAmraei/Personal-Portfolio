@@ -5,7 +5,6 @@ const DisplayProject = ({ projectDetails, projectScreenShots }) => {
   return (
     <div className="project-container">
       <ProjectDetails projectDetails={projectDetails} />
-
       <ProjectVisuals projectScreenShots={projectScreenShots} />
     </div>
   );

@@ -2,17 +2,18 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
 }
 .product-details-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
   flex: 1.2;
   gap: 30px;
   justify-content: space-between;
 }
 .product-visuals-container {
-  border: 1px solid red;
   flex: 2;
 }
 .detail-tags {

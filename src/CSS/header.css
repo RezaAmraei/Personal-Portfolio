@@ -1,14 +1,13 @@
 #header {
   display: flex;
   width: 100%;
-  border: 3px solid blue;
 }
 .navbar {
   position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  background-color: rgb(13, 71, 161, 0.9);
   color: #fff;
   padding: 10px;
   z-index: 9999;
