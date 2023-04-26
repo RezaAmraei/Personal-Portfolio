@@ -13,11 +13,11 @@ const MyName = () => {
     <>
       <div className="intro-text-container">
         <div className="fading-text-container">
-          <span className="fade-in-text" data-aos="slide-right">
-            My name is Reza!
-          </span>
+          <span className="fade-in-text">My name is Reza!</span>
         </div>
-        <h2 data-aos="slide-right">FullStack Developer && Software Engineer</h2>
+        <h2 className="my-name-subheader" data-aos="slide-right">
+          FullStack Developer && Software Engineer
+        </h2>
       </div>
     </>
   );

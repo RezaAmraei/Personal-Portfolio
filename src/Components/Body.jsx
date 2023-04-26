@@ -21,7 +21,7 @@ const Body = ({ aboutRef }) => {
       <MyName />
       <AboutMe />
       <div className="header-wrapper">
-        <h1 className="header" data-aos="slide-right" id="project">
+        <h1 className="headers" data-aos="fade-right" id="project">
           Projects
         </h1>
       </div>
@@ -36,13 +36,13 @@ const Body = ({ aboutRef }) => {
         />
       </div>
       <div className="header-wrapper">
-        <h1 className="header" id="resume" data-aos="slide-right">
+        <h1 className="headers" id="resume" data-aos="slide-right">
           Resume
         </h1>
       </div>
       <PDFRender />
       <div className="header-wrapper">
-        <h1 className="header" id="contact" data-aos="slide-right">
+        <h1 className="headers" id="contact" data-aos="slide-right">
           Contact Me
         </h1>
       </div>

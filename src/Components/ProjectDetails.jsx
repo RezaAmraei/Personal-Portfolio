@@ -13,6 +13,7 @@ import {
   Vercel,
 } from "../Images";
 import { Button } from "antd";
+import ProjectVisualsMobile from "./ProjectVisualsMobile";
 
 const ProjectDetails = ({
   projectDetails: { name, technologies, desc, links },
@@ -65,12 +66,12 @@ const ProjectDetails = ({
         >
           <h1 className="details-labels">View the project:</h1>
           <div>
-            <a href={links.github} target="blank">
+            <a href={links.github} target="_blank">
               <Button type="primary" size="large" className="project-details-">
                 GitHub
               </Button>
             </a>
-            <a href={links.prod} target="blank">
+            <a href={links.prod} target="_blank">
               <Button type="primary" size="large">
                 Demo Site
               </Button>
@@ -78,7 +79,9 @@ const ProjectDetails = ({
           </div>
         </div>
       </div>
-
+      <div className="none-desktop">
+        <ProjectVisualsMobile name={name} />
+      </div>
       <span className="detail-tags" data-aos="slide-right" data-aos-delay="0">
         {"</"} {name} {">"}
       </span>

@@ -40,3 +40,11 @@
 .active {
   text-decoration: underline !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar ul {
+    gap: 5px;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+}

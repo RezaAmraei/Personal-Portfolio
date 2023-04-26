@@ -25,3 +25,23 @@
   width: 50%;
   text-overflow: clip;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-me-wrapper h1 {
+    font-size: 50px;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 100px;
+  }
+  .about-me-wrapper {
+    margin-top: 0px;
+    margin-bottom: 300px;
+  }
+
+  .about-me-desc h3 {
+    text-align: center;
+    font-size: 30px;
+    width: 85%;
+    text-overflow: clip;
+  }
+}

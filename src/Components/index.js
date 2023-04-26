@@ -1,4 +1,3 @@
-export { default as SpinningName } from "./SpinningName";
 export { default as Header } from "./Header";
 export { default as Body } from "./Body";
 export { default as Footer } from "./Footer";
@@ -7,6 +6,7 @@ export { default as AboutMe } from "./AboutMe";
 export { default as DisplayProject } from "./DisplayProject";
 export { default as ProjectDetails } from "./ProjectDetails";
 export { default as ProjectVisuals } from "./ProjectVisuals";
+export { default as ProjectVisualsMobile } from "./ProjectVisualsMobile";
 export { default as PDFRender } from "./PDFRender";
 export { default as ContactMe } from "./ContactMe";
 export { default as ContactForm } from "./ContactForm";

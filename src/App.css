@@ -7,5 +7,11 @@
 
 #app-container {
   max-width: 1800px;
-  min-width: 1800px;
+}
+
+@media only screen and (max-width: 600px) {
+  #app-container {
+    max-width: 100dvw;
+    padding: 20px;
+  }
 }

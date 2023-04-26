@@ -7,7 +7,11 @@ export default {
       github: "https://github.com/Twitter-Clone-2/Twitter",
       prod: "https://main.d3ieofe88k6zwp.amplifyapp.com/",
     },
-    images: ["twitter-mobile", "twitter-desktop-1", "twitter-desktop-2"],
+    images: {
+      mobile: "twitter-mobile",
+      desktop1: "twitter-desktop-1",
+      desktop2: "twitter-desktop-2",
+    },
   },
   ecommerce: {
     name: "Ecommerce",
@@ -17,6 +21,10 @@ export default {
       github: "https://github.com/RezaAmraei/Ecommerce",
       prod: "https://ecommerce-eight-sable.vercel.app/",
     },
-    images: ["ecommerce-mobile", "ecommerce-desktop-1", "ecommerce-desktop-2"],
+    images: {
+      mobile: "ecommerce-mobile",
+      desktop1: "ecommerce-desktop-1",
+      desktop2: "ecommerce-desktop-2",
+    },
   },
 };

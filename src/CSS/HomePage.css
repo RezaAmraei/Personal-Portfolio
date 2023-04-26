@@ -16,11 +16,6 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-#header {
-}
-
-#footer {
-}
 
 #body {
   flex-grow: 1;

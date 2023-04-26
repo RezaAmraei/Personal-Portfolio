@@ -17,3 +17,30 @@
   border-bottom: 1px solid grey;
   margin-bottom: 450px;
 }
+.test {
+  font-size: 100px;
+  margin-top: 300px;
+  color: black;
+  z-index: 9999;
+}
+@media only screen and (max-width: 600px) {
+  .fade-in-text {
+    font-size: 40px;
+  }
+  .fading-text-container {
+    margin-top: 300px;
+    transition: none;
+    display: flex;
+    justify-content: center;
+    transform: translateX(0%);
+  }
+
+  .my-name-subheader {
+    font-size: 20px;
+  }
+  .intro-text-container h2 {
+    border-bottom: 1px solid grey;
+    margin-bottom: 50dvh;
+    margin-top: 30px;
+  }
+}

@@ -4,7 +4,7 @@ import "../CSS/aboutMe.css";
 const AboutMe = () => {
   return (
     <div className="about-me-wrapper" id="about">
-      <h1 data-aos="slide-right" data-aos-delay="100">
+      <h1 data-aos="fade-right" data-aos-delay="0">
         About Me
       </h1>
 

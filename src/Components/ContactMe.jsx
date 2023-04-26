@@ -15,13 +15,13 @@ const ContactMe = () => {
     <div id="contact-container">
       <div className="contact-logos-container">
         <Tooltip title="My GitHub Account!">
-          <a href="https://github.com/RezaAmraei" target="blank">
+          <a href="https://github.com/RezaAmraei" target="_blank">
             <img src={GitHub} className="contact-logos" data-aos="flip-right" />
           </a>
         </Tooltip>
 
         <Tooltip title="My LinkedIn Account!">
-          <a href="https://www.linkedin.com/in/reza-amraei/" target="blank">
+          <a href="https://www.linkedin.com/in/reza-amraei/" target="_blank">
             <img
               src={Linkedin}
               className="contact-logos"

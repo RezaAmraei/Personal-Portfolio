@@ -83,3 +83,79 @@
   justify-content: center;
   width: 100%;
 }
+.none-desktop {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-visuals-top-sc {
+    display: none !important;
+  }
+  .project-visuals-bot-sc {
+    display: none !important;
+  }
+  .project-visuals-iphone {
+    display: none !important;
+  }
+
+  .details-tech-list {
+    margin-left: 0px;
+    width: 100%;
+    font-size: 25px;
+  }
+  .details-tech-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .details-tech-list img {
+    height: 40px;
+  }
+  .details-tech-list span {
+    width: 400px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .test1 {
+    display: flex;
+    justify-content: center;
+  }
+  .project-desc p {
+    margin: 0 !important;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .project-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .product-details-container {
+    width: 100%;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .mobile-images {
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .mobile-mobile-sc {
+    height: 350px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .mobile-mobile-sc-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .none-desktop {
+    display: block;
+  }
+}
