@@ -36,10 +36,10 @@
   }
 
   .my-name-subheader {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .intro-text-container h2 {
-    border-bottom: 1px solid grey;
     margin-bottom: 50dvh;
     margin-top: 30px;
   }
