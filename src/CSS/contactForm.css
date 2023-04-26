@@ -44,3 +44,12 @@
 .contact-form__button:hover {
   background-color: #0069d9;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

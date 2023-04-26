@@ -16,3 +16,13 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-logos {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
