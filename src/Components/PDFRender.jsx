@@ -19,15 +19,7 @@ const PDFRender = () => {
             Download
           </Button>
         </a>
-        <Document file={Resume}>
-          <Page
-            pageNumber={1}
-            renderTextLayer={false}
-            renderAnnotationLayer={false}
-            loading={"Loading Resume..."}
-            scale={1.6}
-          />
-        </Document>
+        <img src={Resume} />
       </div>
 
       <div
@@ -40,15 +32,7 @@ const PDFRender = () => {
             Download
           </Button>
         </a>
-        <Document file={Resume}>
-          <Page
-            pageNumber={1}
-            renderTextLayer={false}
-            renderAnnotationLayer={false}
-            loading={"Loading Resume..."}
-            scale={0.7}
-          />
-        </Document>
+        <img src={Resume} className="mobile-resume" />
       </div>
     </>
   );

@@ -14,12 +14,16 @@
     display: none;
   }
   .pdf-mobile {
-    display: block;
+    display: flex;
   }
   .mobile-download-button {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-bottom: 10px;
+  }
+  .mobile-resume {
+    scale: 0.55;
+    margin-top: -200px;
   }
 }
