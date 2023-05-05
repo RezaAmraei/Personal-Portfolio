@@ -1,6 +1,5 @@
 import React from "react";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import { Resume } from "../Images";
+import { Resume, ResumePDF } from "../Images";
 import { Button } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import "aos/dist/aos.css";
@@ -14,7 +13,7 @@ const PDFRender = () => {
         data-aos="flip-up"
         data-aos-delay="300"
       >
-        <a href={Resume} download>
+        <a href={ResumePDF} download>
           <Button shape="round" icon={<DownloadOutlined />} size="large">
             Download
           </Button>
@@ -27,7 +26,7 @@ const PDFRender = () => {
         data-aos="flip-up"
         data-aos-delay="300"
       >
-        <a href={Resume} download className="mobile-download-button">
+        <a href={ResumePDF} download className="mobile-download-button">
           <Button shape="round" icon={<DownloadOutlined />} size="large">
             Download
           </Button>

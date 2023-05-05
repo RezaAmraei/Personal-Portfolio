@@ -17,3 +17,4 @@ export { default as EcommerceDesktop2 } from "./ecommerce-desktop-sc-2.png";
 export { default as GitHub } from "./GitHub.png";
 export { default as Linkedin } from "./linkedin.png";
 export { default as Resume } from "./Resume.png";
+export { default as ResumePDF } from "./Copy of Resume_SoftwareDeveloper.pdf";
