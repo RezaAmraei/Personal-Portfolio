@@ -1,3 +1,3 @@
 ## Production Link
 
-https://personal-portfolio-cyan-three.vercel.app testing
+https://personal-portfolio-cyan-three.vercel.app
