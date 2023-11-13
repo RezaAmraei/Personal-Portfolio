@@ -7,7 +7,7 @@ const ProjectVisuals = ({ projectScreenShots }) => {
   useEffect(() => {
     Aos.init();
   }, []);
-
+//Screen resoultion on mac is 1470 by 800
   return (
     <div className="product-visuals-container hide-on-mobile">
       <div className="project-visuals-top-sc">
@@ -17,7 +17,6 @@ const ProjectVisuals = ({ projectScreenShots }) => {
             alt="iphone screenshot"
             className="project-visuals-iphone"
             data-aos="zoom-in-up"
-            width={350}
           />
           <div className="desktop-pic-1">
             <Image
@@ -25,8 +24,6 @@ const ProjectVisuals = ({ projectScreenShots }) => {
               className="desktop-sc desktop-pic-1"
               alt="desktop screenshot"
               data-aos="slide-left"
-              width={750}
-              height={700}
             />
           </div>
         </Image.PreviewGroup>
@@ -38,8 +35,6 @@ const ProjectVisuals = ({ projectScreenShots }) => {
           className="desktop-sc desktop-sc-2"
           alt="desktop screenshot"
           data-aos="flip-up"
-          width={750}
-          height={500}
         />
       </div>
     </div>

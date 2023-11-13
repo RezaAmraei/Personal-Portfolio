@@ -75,8 +75,13 @@
 }
 .project-visuals-iphone {
   height: 700px !important;
+  width:350px !important;
+
 }
 .desktop-pic-1 {
+}
+.desktop-sc{
+  /* height: 100px !important; */
 }
 .test1 {
   display: flex;
@@ -86,7 +91,30 @@
 .none-desktop {
   display: none;
 }
-
+@media(max-width: 1470px){
+  .desktop-pic-1{
+    height: 350px !important;
+    width: 480px !important;
+  }
+  .project-visuals-iphone{
+    height: 6000px;
+    width: 250px;
+  }
+  .project-visuals-top-sc{
+    align-items: center;
+  }
+  .desktop-sc-2{
+    width: 100% !important;
+    height: 500px !important;
+  }
+  .project-visuals-bot-sc{
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .project-visuals-iphone{
+    height: 650px !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .project-visuals-top-sc {
     display: none !important;
